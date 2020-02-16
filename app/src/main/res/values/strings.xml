@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Signup</string>
+    <string name="be_the_eyes">Be The Eyes</string>
+    <string name="signup_now">Signup now</string>
+    <string name="LOGIN">LOGIN</string>
+    <string name="remember_me">remember me</string>
+    <string name="welcome_to_application">Welcome to application</string>
+    <string name="user_signup">USER SIGNUP</string>
+    <string name="Welcome_to_application">welcome to application</string>
+    <string name="user_name">User name</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="signup">SIGNUP</string>
+    <string name="you_are_already_login">You are already login</string>
+    <string name="login_now">Login now</string>
+    <string name="distance_measure">Distance Measure</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="app_name1">Ogle Eye</string>
+</resources>
