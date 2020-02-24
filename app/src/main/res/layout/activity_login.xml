@@ -1,0 +1,98 @@
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:layout_marginRight="20dp"
+    android:layout_marginBottom="20dp"
+    android:layout_marginLeft="25dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="24dp"
+        android:src="@drawable/eye"
+        />
+    <TextView
+        android:id="@+id/txtvw1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="60dp"
+        android:text="SignIn"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="30dp"
+        android:textColor="#A00808"
+
+        />
+    <TextView
+        android:id="@+id/txtvwsignup"
+        android:onClick="navigatetoRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="180dp"
+        android:text="SignUp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="30dp"
+        android:clickable="true"
+
+        />
+    <EditText
+        android:id="@+id/ed_username"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="220dp"
+        android:hint="Enter your username "
+        android:textColorHint="#000"
+        />
+
+
+    <EditText
+        android:id="@+id/ed_password"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="280dp"
+        android:inputType="textPassword"
+        android:hint="Enter your password "
+        android:textColorHint="#000"
+        />
+
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="350dp"
+        android:onClick="Login"
+        android:textColor="#fff"
+        android:hint="Sign In"
+        android:fontFamily="sans-serif"
+        android:textSize="25dp"
+        android:textColorHint="#fff"
+        android:background="#000"/>
+    <TextView
+        android:id="@+id/signupbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="59dp"
+        android:gravity="center"
+        android:onClick="navigatetoRegister"
+        android:hint="If you are not registered?Sign Up"
+        android:textStyle="bold"
+        android:textColorHint="#000"
+        android:clickable="true"
+        />
+
+
+</RelativeLayout>
